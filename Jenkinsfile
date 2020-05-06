@@ -39,13 +39,7 @@ pipeline {
           }
           
       
-#      stage ('email'){
- #         steps{
-  #            
-   #           mail bcc: '', body: 'Jenkins', cc: '', from: '', replyTo: '', subject: 'jenkinsjob', to: 'theetisatish@gmail.com'
-    #      }
           
-     # }
   }  
       
   
