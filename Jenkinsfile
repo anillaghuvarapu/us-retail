@@ -27,7 +27,7 @@ pipeline {
           
           steps{
               
-              sh '/opt/deploy.sh'
+              sh '/opt/scripts/deploy.sh'
           } 
       }
           stage ('artifact'){
